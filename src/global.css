@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+:root {
+    --bgTransGray: rgba(77, 75, 75, 0.514);
+    --txtTransGray: rgba(255, 255, 255, 0.562);
+    --yellow: rgb(199, 186, 7);
+}
+
+body {
+    background-image: url('assets/bg.png');
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin: 30px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    color: white;
+}
+
+.title h1 {
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+
+.title h2 {
+    margin-top: -10px;
+    font-size: 0.7rem;
+}
+
+.center-header {
+    display: flex;
+    gap: 20px;
+}
+
+.pass-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--txtTransGray);
+}
+
+.pass-status h1 {
+    font-size: 2rem;
+    color: var(--yellow);
+}
+
+.pass-status h2 {
+    font-size: 1.6rem;
+    background-color: var(--bgTransGray);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.coins {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+    border-radius: 10px;
+    padding: 20px 10px 10px 10px;
+    margin-top: 8px;
+    gap: 5px;
+    height: 40px;
+}
+
+.coins h1 {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.coins h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.coins h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.money {
+    background-color: rgb(4, 143, 34);
+    border-radius: 10px;
+    display: flex;
+    padding: 20px 10px 10px 10px;
+    margin-top: 8px;
+    gap: 5px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.money h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.money h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.money h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.transactions button {
+    background-color: var(--bgTransGray);
+    color: var(--txtTransGray);
+    height: 70%;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+.exit button {
+    color: white;
+    margin: 10px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border-style: none;
+    background: rgba(238, 60, 60, 0.623);
+    color: var(--txtTransGray);
+    cursor: pointer;
+}
+
+.no-link {
+    text-decoration: none;
+}
+
+.return {
+    background-color: var(--yellow);
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 0 10px 10px 0;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.return:hover {
+    background-color: white;
+}
+
+.return:active {
+    box-shadow: inset 2px -2px rgba(0, 0, 0, 0.438), inset -2px 2px rgba(0, 0, 0, 0.438);
+}

@@ -1,0 +1,513 @@
+.title-pass {
+    margin: 30px;
+}
+
+.title-pass h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: rgba(253, 253, 253, 0.178);
+}
+
+.title-pass h2 {
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: -50px 0 0 20px;
+}
+
+/* ----------------------- CONTMENT-MAIN --------------------- */
+
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 80vh;
+    width: 100vw;
+    padding: 0 120px;
+}
+
+.block1 {
+    background-image: url('assets/block1.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+    width: 60%;
+    line-height: 30px;
+    color: white;
+    opacity: 0.8;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.block1:hover {
+    opacity: 1;
+    filter: brightness(120%);
+}
+
+.block1 {
+    padding: 30px;
+}
+
+.block1 h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.block1 h2 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.block1 h2 span {
+    font-weight: 400;
+}
+
+.block2 {
+    background-image: url('assets/block2.jpg');
+    line-height: 30px;
+    color: white;
+    height: 50%;
+    width: 39%;
+    opacity: 0.8;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.block2:hover {
+    opacity: 1;
+    filter: brightness(120%);
+}
+
+.block2 h1 {
+    padding: 30px 0 0 15px;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.block2 h1 span {
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: white;
+    color: black;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+.block2 h2 {
+    padding-left: 15px;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.block2 h2 span {
+    font-weight: 400;
+}
+
+.block3 {
+    background-image: url('assets/block3.jpg');
+    height: 45%;
+    width: 43%;
+    opacity: 0.6;
+    transition: 1s;
+    cursor: pointer;
+    margin-top: -25px;
+}
+
+.block3:hover {
+    filter: brightness(120%);
+    opacity: 1;
+}
+
+.block4 {
+    background-image: url('assets/block4.jpg');
+    height: 45%;
+    width: 56%;
+    opacity: 0.6;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+    margin-top: -25px;
+}
+
+.block4:hover {
+    filter: brightness(120%);
+    opacity: 1;
+}
+
+.block4 h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 20px 30px;
+}
+
+/* ----------------------- VEHICLES-PERMANENT --------------------- */
+
+.CarLayoutDealer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    height: 80vh;
+    width: 100vw;
+    background-color: rgba(17, 19, 19, 0.459);
+}
+
+.PhotoCarDealer {
+    height: 50%;
+    width: 30%;
+}
+
+.CarName {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.CarName h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.CarName h2 {
+    margin-top: -18px;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.car-status {
+    color: white;
+    display: flex;
+    gap: 6rem;
+}
+
+.status-style h1 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.status-style h2 {
+    margin-top: -14px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.buttons-car-dealer {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.price-car {
+    background-color:  var(--yellow);
+    border-radius: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    padding: 6px 15px 0 15px;
+    font-weight: 700;
+}
+
+.buttons-car-dealer h1 {
+    font-size: 0.6rem;
+    font-weight: 700;
+}
+
+.buttons-car-dealer h1 span {
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.buttons-car-dealer h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.buttons-car-dealer h3 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.buttons-car-dealer button {
+    padding: 8px;
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buttons-car-dealer button:hover {
+    background-color: white;
+    color: black;
+}
+
+.buttons-car-dealer button:active {
+    transition: 0.1s;
+    color: red;
+    box-shadow: inset 2px -2px rgba(0, 0, 0, 0.438),inset -2px 2px rgba(0, 0, 0, 0.438);
+}
+
+/* ----------------------- PREMIUM PASS PAGE --------------------- */
+
+.content-premium-pass-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    height: 80vh;
+    width: 100vw;
+    background-color: rgba(17, 19, 19, 0.459);
+}
+
+.plan-content {
+    background-image: url('assets/premiumbg.jpg');
+    background-position: right;
+    gap: 13rem;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    height: 40rem;
+    width: 65rem;
+}
+
+.title-pass-page {
+    margin: 30px 30px 30rem 3rem;
+}
+
+.title-pass-page h1 {
+    font-size: 5.5rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.336);
+}
+
+.title-pass-page h2 {
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 5.5rem;
+    font-weight: 700;
+    margin: -60px 0 0 20px;
+}
+
+.infos-premium {
+    background-color: rgba(0, 0, 0, 0.329);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-content ul {
+    color: white;
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 50px;
+}
+
+.plan-content ul h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.plan-content ul li {
+    position: relative;
+    left: -0.8rem;
+}
+
+.plan-content button {
+    background-color: rgb(255, 230, 0);
+    border-style: none;
+    border-radius: 13px;
+    box-shadow: inset 1px -4px 0 #2c2c2c38,0 2px rgba(0, 0, 0, 0.267);
+    padding: 0 20px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.445);
+    font-size: 1.7rem;
+    margin: 10px;
+    padding: 5px 10px;
+    font-weight: 700;
+    transition: all .1s ease-in-out;
+}
+
+.plan-content button h1 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.plan-content button h3 {
+    margin: -14px 0 0 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.plan-content button:active {
+    
+    box-shadow: inset -4px 4px 0 rgba(0, 0, 0, 0.267);
+}
+
+.plan-content button:hover {
+    background-color: rgb(166, 243, 58);
+    letter-spacing: 1px;
+}
+
+.modals-template {
+    margin-left: -10px;
+    background-color: #333335;
+    background-image:  linear-gradient(135deg, #3b3b3b 25%, transparent 25%), linear-gradient(225deg, #3b3b3b 25%, transparent 25%), linear-gradient(45deg, #3b3b3b 25%, transparent 25%), linear-gradient(315deg, #3b3b3b 25%, #333335 25%);
+    background-position:  10px 0, 10px 0, 0 0, 0 0;
+    background-size: 20px 20px;
+    background-repeat: repeat;
+    color: white;
+    border-radius: 20px;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.modals-template h1 {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.buttons-buy {
+    display: flex;
+    justify-content: right;
+}
+
+.buttons-buy button{
+    margin-left: 5px;
+}
+
+/* ----------------------- HOUSES-PERMANENT --------------------- */
+
+.HosesLayoutDealer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    height: 80vh;
+    width: 100vw;
+    background-color: rgba(17, 19, 19, 0.459);
+}
+
+.PhotoHosesDealer {
+    height: 100vh;
+    width: 100vw;
+}
+
+.content-Hoses-dealer {
+    background-color: #33333581;
+    padding: 15px;
+    border-radius: 10px;
+    position: absolute;
+    right: 15rem;
+}
+
+.HosesName {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.HosesName h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.HosesName h2 {
+    margin-top: -18px;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.Hoses-status {
+    color: white;
+    display: flex;
+    gap: 6rem;
+}
+
+.status-style h1 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.status-style h2 {
+    margin-top: -14px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.buttons-Hoses-dealer {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.price-Hoses {
+    background-color:  var(--yellow);
+    border-radius: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    padding: 6px 15px 0 15px;
+    font-weight: 700;
+}
+
+.buttons-Hoses-dealer h1 {
+    font-size: 0.6rem;
+    font-weight: 700;
+}
+
+.buttons-Hoses-dealer h1 span {
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.buttons-Hoses-dealer h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.buttons-Hoses-dealer h3 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.buttons-Hoses-dealer button {
+    padding: 8px;
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buttons-Hoses-dealer button:hover {
+    background-color: white;
+    color: black;
+}
+
+.buttons-Hoses-dealer button:active {
+    transition: 0.1s;
+    color: red;
+    box-shadow: inset 2px -2px rgba(0, 0, 0, 0.438),inset -2px 2px rgba(0, 0, 0, 0.438);
+}
